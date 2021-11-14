@@ -1,4 +1,4 @@
-Project description: Flashcard-o-matic
+Flashcard-o-matic
 A local school has decided to put together a flash card application, Flashcard-o-matic, to help their students study online. Teachers will use this application to create decks of flash cards for the subjects that they teach, and students will study the decks. The school needs you to build the application that the students and teachers will use.
 
 Bootstrap 4 is included with the starter HTML. You're welcome to use vanilla CSS or Bootstrap 4 for styling your project. However, your finished product doesn't have to match the styles in the provided screenshots because you won't be assessed on the styling or responsiveness of your project.
