@@ -29,7 +29,7 @@ export default function StudyDeck() {
     }
   }
 
-  if (!deck.id) {
+  if (!deck?.id) {
     return <p>Loading...</p>;
   }
   const card = deck.cards[currentCard - 1];
@@ -44,7 +44,7 @@ export default function StudyDeck() {
               </Link>
             </li>
             <li class="breadcrumb-item">
-              <Link to={`/decks/${deckId}`}>Rendering in React</Link> 
+              <Link to={`/decks/${deckId}`}>{deck?.name}</Link> 
             </li>
             <li class="breadcrumb-item active" aria-current="page">
               Study
